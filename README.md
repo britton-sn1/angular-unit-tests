@@ -1,3 +1,5 @@
+github  britton-sn1 (github@snowjest.plus.com) H594
+
 # TrainingForAngularUnitTests
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
