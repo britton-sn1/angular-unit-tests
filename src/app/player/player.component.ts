@@ -10,11 +10,7 @@ export class PlayerComponent implements OnInit {
   name: string;
   score: number;
   
-  constructor(name: string, score: number) {
-	  this.name = name;
-	  this.score = score;
-    }
-
+  constructor() {}
 
   ngOnInit() {
   }

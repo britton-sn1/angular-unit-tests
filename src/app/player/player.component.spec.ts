@@ -16,10 +16,11 @@ describe('PlayerComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(PlayerComponent);
     component = fixture.componentInstance;
+
     fixture.detectChanges();
   });
 
   it('should create', () => {
-   // expect(component).toBeTruthy();
+    expect(component).toBeTruthy();
   });
 });

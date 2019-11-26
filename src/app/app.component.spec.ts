@@ -1,11 +1,15 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { ScoreboardComponent } from './scoreboard/scoreboard.component';
+import { PlayerComponent } from './player/player.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent, 
+        ScoreboardComponent,
+        PlayerComponent
       ],
     }).compileComponents();
   }));
